@@ -1,0 +1,18 @@
+.grids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 3vh;
+    column-gap: 2vw;
+    grid-auto-rows: minmax(min-content, 1fr);
+    height: 65vh;
+}
+
+.display-area {
+    text-align: right;
+    border: solid 1px black;
+    grid-column: 1 / 5;
+}
+
+.button0 {
+    grid-column: 1 / 3;
+}
