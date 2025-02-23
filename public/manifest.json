@@ -1,9 +1,10 @@
 {
+    "name": "Taobao Calculator",
     "short_name": "TaobaoCalc",
     "description": "A ripoff of Apple's calculator",
-    "theme_color": "#eeeeee",
-    "background_color": "#cccccc",
-    "display": "minimal-ui",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
@@ -74,6 +75,5 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ],
-    "name": "Taobao Calculator"
+    ]
 }

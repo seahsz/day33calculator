@@ -1,0 +1,14 @@
+# Purpose of .dockerignore, prevents the copying
+# of files to the context in the first place
+
+# Docker will then take the files from context then copy
+# it into memory
+
+node_modules
+dist
+.angular
+
+README.md
+.git
+.gitignore
+.editorconfig
